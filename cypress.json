@@ -1,0 +1,12 @@
+{
+    "video": false,
+    "pageLoadTimeout": 30000,
+    "chromeWebSecurity": false,
+    "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"],
+    "env": {},
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "cypress/results/TEST-[hash].xml"
+    },
+    "includeShadowDom" : true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "wordle-bot",
+  "version": "1.0.0",
+  "description": "A terminator that plays Wordle",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open"
+  },
+  "author": "Lee Bailey",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  }
+}
